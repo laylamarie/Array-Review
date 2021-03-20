@@ -1,11 +1,11 @@
 //Declare and initalize a variable with an empty array 
-
+var myArray[]
 
 //Use bracket notation to add
   //a string to the first index
   //a boolean to the second index
   //a number to the fourth index
-
+  mystring = 'layla'
 
 //When you console.log the third and fourth indices 
 //what is the value?
@@ -64,7 +64,7 @@ EXAMPLE:
 
 function countVowels(string){
   //CODE BELOW HERE
-
+countVowels('')
 
   //CODE ABOVE HERE
 }
@@ -84,7 +84,11 @@ evenIndicies(otherArray) => false
 
 function evenIndicies(array){
   //CODE BELOW HERE
+var myArray = [0,1,2,3,4]
+var otherArray = [0,1,2,3,4,5,6]
 
-
+evenIndcies(myArray) => true
+evenIndicies(otherArray) =>
+*/
   //CODE ABOVE HERE
 }
